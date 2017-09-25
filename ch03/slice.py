@@ -1,0 +1,6 @@
+L = ['helo1', 'hello2', 'hello3', 'hello4']
+print L[0:3]
+print L[1:3]
+print L[-1:]
+print L[-2:]
+print L[-2:-1]
