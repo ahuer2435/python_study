@@ -20,3 +20,4 @@ def ignore_case_cmp(x,y):
 print sorted(['Atut','dtydyt','sgsg','vui','GUGj'],ignore_case_cmp)
 
 # 高阶函数sorted接受其他函数作为参数实例
+# 比较结果 返回-1 为小于< ;1 为大于；0为相等
