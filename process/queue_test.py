@@ -25,3 +25,9 @@ if __name__=="__main__":
 #进程间通信可以通过Queue，也可以通过Pipes，前者先进先出，后者相反。
 #语法应该类似。
 
+##小结##
+#在Unix/Linux下，可以使用fork()调用实现多进程。
+
+#要实现跨平台的多进程，可以使用multiprocessing模块。
+
+#进程间通信是通过Queue、Pipes等实现的。
